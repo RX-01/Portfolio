@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import Loadable from 'react-loadable';
 import './App.css';
 
-// import Contact from './components/Contact';
+import Contact from './components/Contact';
 import About from './components/About';
 import Home from './components/Home';
 import Head from './components/Header';
@@ -32,7 +32,7 @@ class App extends Component {
 
         <Switch>
           <Route  exact path = "/" component = {Home}/>
-          <Route  path = "/contact" component = {LoadableContact}/>
+          <Route  path = "/contact" component = {Contact}/>
           <Route  path = "/about" component = {About}/>
         </Switch>
 
