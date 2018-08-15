@@ -62,7 +62,7 @@ import React from 'react'
 const Contact =  () => {
   return (
    
-    <form name="contact-form" method="POST" netlify>
+    <form name="contact-form" netlify>
     <p>
       <label>Your Name: <input type="text" name="name" /></label>   
     </p>
